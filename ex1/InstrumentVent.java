@@ -6,7 +6,7 @@ public class InstrumentVent extends Instrument {
         super(name, price);
         // TODO Auto-generated constructor stub
     }
-    public static void play() {
+    public void play() {
         System.out.println("Està sonant un instrument de vent");
     }
 
